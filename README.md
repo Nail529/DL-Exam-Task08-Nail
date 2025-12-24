@@ -36,8 +36,8 @@ The plot below compares the validation accuracy over 10 epochs for both versions
 ![Comparison Plot](comparison_plot.png)
 
 ### 2. Comparison Table<img width="1000" height="500" alt="comparison_plot" src="https://github.com/user-attachments/assets/5af022d0-389e-49e0-8421-fa989f282381" />
-<img width="800" height="600" alt="confusion_matrix" src="https://github.com/user-attachments/assets/7a440806-5c44-45c2-983b-c0f6631888b6" />
-<img width="1500" height="600" alt="sample_predictions" src="https://github.com/user-attachments/assets/a0748865-f2f7-4960-bca5-5de9f0a4622b" />
+
+
 
 | Metric | Version 1 (Adam) | Version 2 (SGD) |
 | :--- | :--- | :--- |
@@ -54,11 +54,12 @@ The plot below compares the validation accuracy over 10 epochs for both versions
 ### Confusion Matrix (Best Model)
 ![Confusion Matrix](confusion_matrix.png)
 *Observation: The model shows high precision across the 5 categories, indicating that the pre-trained ResNet18 features are highly effective for food recognition.*
+<img width="800" height="600" alt="confusion_matrix" src="https://github.com/user-attachments/assets/7a440806-5c44-45c2-983b-c0f6631888b6" />
 
 ### Sample Predictions
 ![Sample Predictions](sample_predictions.png)
 *10 random samples showing the true vs. predicted labels from the best-performing model.*
-
+<img width="1500" height="600" alt="sample_predictions" src="https://github.com/user-attachments/assets/a0748865-f2f7-4960-bca5-5de9f0a4622b" />
 ## ⚙️ Setup & Installation
 1.  **Clone the Repository:**
     ```bash
