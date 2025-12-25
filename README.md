@@ -61,15 +61,13 @@ The plot below compares the validation accuracy over 10 epochs for both versions
 *10 random samples showing the true vs. predicted labels from the best-performing model.*
 <img width="1500" height="600" alt="sample_predictions" src="https://github.com/user-attachments/assets/a0748865-f2f7-4960-bca5-5de9f0a4622b" />
 ## ⚙️ Setup & Installation
-1.  **Clone the Repository:**
-    ```bash
-    git clone [Your-GitHub-Link]
+
     ```
-2.  **Install Requirements:**
+  **Install Requirements:**
     ```bash
     pip install -r requirements.txt
     ```
-3.  **Run Notebook:** Open the `.ipynb` file in Google Colab or Jupyter and run all cells.
+  **Run Notebook:** Open the `.ipynb` file in Google Colab or Jupyter and run all cells.
 
 ---
 **Seed used for reproducibility:** `20240108`
